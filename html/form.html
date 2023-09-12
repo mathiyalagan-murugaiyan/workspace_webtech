@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <fieldset>
+      <legend><h1>Student details</h1></legend>
+      <form action="#" method="get" validate>
+        <label for="u_fname">frist name:</label>
+        <input type="text" name="user_fristname" id="u_fname" />
+        <br />
+        <br />
+        <label for="u_lname">last name:</label>
+        <input type="text" name="user_lastname" id="u_lname" />
+        <br />
+        <br />
+        <label for="u_age">age</label>
+        <input type="text " name="user_age" id="i_age" />
+        <br />
+        <br />
+        <label for="id_gender_male">gender : </label>
+        <input
+          type="radio"
+          name="gender"
+          id="id_gender_male"
+          value="male"
+        />male
+        <input
+          type="radio"
+          name="gender"
+          id="id_gender_female"
+          value="female"
+        />female
+        <input
+          type="radio"
+          name="gender"
+          id="id_gender_others"
+          value="others"
+        />others
+        <br />
+        <br />
+        <label for="">choose course</label>
+        <select name="user_choose_course" id="u_choose_course">
+          <option value="null"></option>
+          <option value="html">html</option>
+          <option value="css">css</option>
+          <option value="js">java script</option>
+        </select>
+        <br />
+        <br />
+        <label for="u_dob">dateofbirth</label>
+        <input type="date" name="user_date_birth" id="u_dob" />
+        <br />
+        <br />
+        <label for="u_address">address</label>
+        <br />
+        <textarea
+          name="user_address"
+          id="u_address"
+          cols="25"
+          rows="5"
+        ></textarea>
+        <br />
+        <br />
+        <label for="u_mail">email:</label>
+        <input type="email" name="user_email" id="u_mail" />
+        <br />
+        <br />
+        <label for="u_mobile">mobile:</label>
+        <input type="tel" name="user_monile" id="u_mobile" />
+        <br />
+        <br />
+        <label for="u_qulification">Qulification</label>
+        <input
+          type="checkbox"
+          id="u_qulification"
+          name=" user_qulification_msc"
+          value="m.sc"
+        />
+        M.sc
+        <input
+          type="checkbox"
+          id="u_qulification_bsc"
+          name="user_qulification_bsc "
+          value="b.sc"
+        />B.sc
+        <input
+          type="checkbox"
+          id="u_qulification_others"
+          name="user_qulification_others "
+          value="others"
+        />Others
+        <br />
+        <br />
+        <input type="submit" />
+        <input type="reset" />
+      </form>
+    </fieldset>
+  </body>
+</html>
