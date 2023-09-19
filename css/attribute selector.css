@@ -22,6 +22,9 @@ img{
 /* img[alt~=dragon]{
     border: 5px solid red
 } */
-img[alt|=dragon]{
+/* img[alt|=dragon]{
+    border: 5px solid red;
+} */
+img[alt*=fly]{
     border: 5px solid red;
 }
