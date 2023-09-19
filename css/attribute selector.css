@@ -7,7 +7,11 @@ img{
     border: 5px solid red;
 } */
 
-img[alt=bird]{
+/* img[alt=bird]{
 
+    border: 5px solid red;
+} */
+
+img[alt^=dragon]{
     border: 5px solid red;
 }
