@@ -1,0 +1,28 @@
+/* #para1{
+    background-color: aquamarine;
+} */
+
+/* .para{
+    background-color: aqua;
+} */
+/* p{
+    background-color: aqua;
+} */
+*{
+    background-color: aquamarine;
+    border: 2px solid;
+}
+p{
+    background-color: blue;
+}
+.para{
+    background-color: brown;
+}
+#para1{
+    background-color: aqua !important;
+}
+#para1{
+    background-color: blue !important
+    ;
+    
+}
