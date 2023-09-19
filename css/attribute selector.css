@@ -3,3 +3,11 @@ img{
     width: 350px;
     
 }
+/* img[alt]{
+    border: 5px solid red;
+} */
+
+img[alt=bird]{
+
+    border: 5px solid red;
+}
