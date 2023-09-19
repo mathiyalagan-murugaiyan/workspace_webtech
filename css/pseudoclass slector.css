@@ -13,8 +13,9 @@ a:hover{
 img{
     width: 150px;
     height: 150px;
-    opacity: 0.5;
+    opacity: -2;
 }
 img:hover{
     opacity: 1.0;
+    border: 5px solid;
 }
