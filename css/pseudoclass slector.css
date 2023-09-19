@@ -4,3 +4,17 @@ a:link{
 a:visited{
     color: yellow;
 }
+a:active{
+    color: brown;
+}
+a:hover{
+    font-size: x-large;
+}
+img{
+    width: 150px;
+    height: 150px;
+    opacity: 0.5;
+}
+img:hover{
+    opacity: 1.0;
+}
