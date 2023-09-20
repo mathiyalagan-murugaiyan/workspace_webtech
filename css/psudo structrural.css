@@ -1,0 +1,24 @@
+/* #parent > .para{
+    background-color: aquamarine;
+} */
+/* #parent > .para:first-child{
+    background-color: red;
+} */
+/* div> .para:last-child{
+    background-color: aqua;
+} */
+
+/* 1,2,3,4,5, odd, even */
+/* div>p:nth-child(2){         
+    background-color: red;
+} */
+/* body i:first-of-type{
+    background-color: red;
+}
+body p:last-of-type{
+    background-color: aqua;
+} */
+body i:nth-of-type(2){
+    background-color: red;
+}
+
