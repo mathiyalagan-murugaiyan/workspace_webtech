@@ -2,6 +2,55 @@
     font-size: xx-large;
     color: red;
 } */
-p::first-line{
+/* p::first-line{
     color: rgb(0, 17, 255);
+} */
+/* p::selection{
+    background-color: yellow;
+    color: red;
+} */
+/* h1{
+    text-align: center;
+    
+}
+h1::before{
+    content: "* * * *  ";
+    color: red;
+}
+h1::after{
+  content:  "  * * * *";
+  color: red;
+} */
+/* #div1{
+    border: 1px solid ;
+}
+.heading1{
+    border:1px solid red;
+    text-align: center;
+    position: relative;
+
+    
+}
+h1::before{
+    content:"" ;
+    border:1px solid grey ;
+    position: absolute;
+    width: 350px;
+    left: 250px;
+    top: 20px;
+    border-bottom: none;
+
+}
+h1::after{
+    content: "";
+    border: 1px solid grey;
+    position:absolute ;
+    width: 350px;
+    top: 20px;
+    right: 250px;
+    border-bottom: none;
+} */
+ul>li::marker{
+    color: red;
+    font-size: xx-large;
 }
