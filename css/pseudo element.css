@@ -51,6 +51,6 @@ h1::after{
     border-bottom: none;
 } */
 ul>li::marker{
-    color: red;
+    color: blue;
     font-size: xx-large;
 }
