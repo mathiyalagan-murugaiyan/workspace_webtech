@@ -1,0 +1,13 @@
+#para1{
+    color: red;
+    text-align: left;
+    text-transform: capitalize;
+    text-shadow: 1px 1px ;
+    /* text-decoration: underline; */
+    /* text-decoration: overline; */
+    /* text-decoration: line-through; */
+    text-indent: 50px;
+    line-height: 40px;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+}
