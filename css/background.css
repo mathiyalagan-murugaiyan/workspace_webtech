@@ -1,0 +1,16 @@
+#div1{
+    border: 15px dashed red;
+    height: 100vh;
+    padding: 100px;
+    background-image: url(../image/flower.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* background-position: right top;
+    background-attachment: scroll; */
+    background-clip: content-box;
+    
+}
+p{
+    color: aqua;
+ 
+}

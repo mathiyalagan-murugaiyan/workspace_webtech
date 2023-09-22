@@ -1,0 +1,60 @@
+#parantdiv{
+    height: 100mvh;
+    border: 15px dashed;
+    padding: 20px;
+   
+    text-align: center;
+    background-size: 100% 100%;
+    line-height: 20px;
+    padding-top: 50px;
+    
+  
+}
+#child1{
+    background-image: url(../image/flower.webp);
+    /* background-image: url(../image/life.jpg); */
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: 150px 150px;
+    background-position: left top;
+    background-clip: content-box;
+    background-origin: padding-box;
+    
+   
+    
+}
+#child2{
+   
+    background-image: url(../image/life.jpg);
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: 250px 250px;
+    background-position: center center;
+    background-clip: content-box;
+    
+}
+#child3{
+
+    background-image: url(../image/journy.jpg);
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: 150px 150px;
+    background-position: right bottom;
+    background-clip: padding-box;
+    
+
+}
+h1::before{
+    content: " * * * ";
+    color: red;
+}
+h1::after{
+    content: " * * * ";
+    color: red;
+}
+p{
+    color: blue;
+    display: inline;
+    
+}
+
