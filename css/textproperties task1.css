@@ -1,0 +1,24 @@
+#nav1{
+    border: 1px solid;
+    height: 40px;
+    text-align: center;
+    word-spacing: 180px;
+    padding-top: 20px;
+    background-color: aqua;
+    
+} a{
+    text-decoration: none;
+}
+#para1{
+    color: brown;
+    line-height: 50px;
+    word-spacing: 15px;
+    letter-spacing: 2px;
+}
+#div1{
+    padding-left: 600px;
+}
+button:hover{
+    color: red;
+    background-color: aqua;
+}
