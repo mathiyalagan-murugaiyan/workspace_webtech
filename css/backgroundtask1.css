@@ -1,11 +1,11 @@
-div{
+#div1{
     height:480px;
     width: 1120px;
     border: 15px dashed;
     padding: 20px;
     background-image: url(../image/life.jpg),url(../image/flower.webp),url(../image/journy.jpg);
     text-align: center;
-    background-size: 250px 180px,550px 280px,250px 180px;
+    background-size: 250px 180px,500px 280px,250px 180px;
     background-repeat: no-repeat;
     background-position: left top ,center center, right bottom;
     background-clip:content-box,content-box,content-box;
