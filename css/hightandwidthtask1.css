@@ -1,0 +1,17 @@
+#term{
+    text-align: center;
+    border: 2px solid;
+
+}
+
+#content{
+    border: 2px solid;
+    height: 250px;
+    overflow: scroll;
+}
+#check{
+    padding-left: 100px;
+}
+#btn{
+    padding-left: 200px;
+}
