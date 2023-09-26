@@ -1,0 +1,17 @@
+div{
+    border: 1px solid;
+    
+    background-color: aqua;
+    
+}
+
+div>section{
+   
+    border: 1px solid;
+    display: inline-block;
+    max-width: 480px;
+    max-height: 100px;
+    background: yellow;
+
+
+}
