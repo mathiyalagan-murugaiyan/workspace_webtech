@@ -1,16 +1,35 @@
+body{
+   
+    padding: 40px;
+    padding-left: 40px;
+}
+
 #term{
     text-align: center;
     border: 2px solid;
+    width: 580px;
+
 
 }
+#parantdiv{
+    border: 1px solid;
+    height: 430px;
+    width: 500px;
+    padding: 40px;
+}
 
-#content{
+
+
+#childdiv{
     border: 2px solid;
-    height: 250px;
+    height: 300px;
+    width: 400px;
     overflow: scroll;
+   
 }
 #check{
     padding-left: 100px;
+    padding: 20px;
 }
 #btn{
     padding-left: 200px;
