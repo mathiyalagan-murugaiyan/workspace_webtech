@@ -1,0 +1,18 @@
+/* div{
+    background-image: url(../image/journy.jpg);
+    height: 100vh;
+    background-color: rgb(185, 77, 77);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+p{
+   height: 50vh;
+   background-color: rgb(255,200, 200,0.5);
+} */
+
+div{
+    height: 100vh;
+}
+p{
+    background-color:hsl(158, 44%, 39%);
+}
