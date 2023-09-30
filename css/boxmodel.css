@@ -1,0 +1,33 @@
+#div1{
+    border: 1px solid ;
+
+}
+#div2{
+    border: 1px solid;
+    padding: 50px;
+    margin: 40px;
+}
+
+#div2 >p{
+    display: inline-block;
+    max-width: 260px;
+    padding: 10px;
+    margin: 20px;
+    border: 1px solid;
+    border-width: 10px;
+    border-color: red;
+    border-radius: 10px;
+    border-style: solid;
+    border-left-color: yellow;
+    border-top-right-radius: 25px;
+    border-bottom-style: none;
+}
+p:first-child{
+    background-color: aqua;
+}
+p:nth-child(2){
+    background-color: blueviolet;
+}
+p:last-child{
+    background-color: aqua;
+}
