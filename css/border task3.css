@@ -1,0 +1,39 @@
+table,th,td{
+   
+    border-collapse: collapse;
+}
+table{
+    display: block;
+    max-width: 600px;
+    
+}
+.name {
+    width:290px ;
+    border: 1px solid;
+   
+}
+.age{
+    width: 100px;
+    border: 1px solid;
+    border-right: 2px solid;
+}
+.sn{
+    width: 100px;
+    border-spacing: 2px;
+    border: 1px solid;
+    
+}
+thead>tr> th{
+    border-bottom:dashed;
+    background-color: bisque;
+}
+#lastrow:hover{
+    background-color: yellow;
+   
+}
+td{
+    text-align: center;
+}
+#lastrow{
+  border-top: ;
+}
