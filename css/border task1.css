@@ -1,0 +1,14 @@
+table,td,th{
+    border: 1px solid;
+    border-collapse: collapse;
+}
+th{
+  border-bottom-color: red;
+  
+}
+thead >tr>th{
+border: none;
+}
+td{
+    border-color: red;
+}
