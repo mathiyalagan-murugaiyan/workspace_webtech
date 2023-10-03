@@ -1,0 +1,33 @@
+#nav_modul{
+    border: 1px solid;
+    background-color: aquamarine;
+}
+.nav_content{
+    border: 1px solid;
+    display: inline-block;
+    width: 257px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+#home , #service{
+    height: 100vh;
+    border: 1px solid;
+}
+
+#singupform{
+    border: 1px solid red;
+    position: absolute;
+    width: 257px;
+    display: none;
+    background-color: rgb(255, 225, 127);
+   
+}
+#singup_nav:hover > #singupform {
+    display: block;
+    
+}
+ul>li{
+    list-style-type: none;
+    
+}
