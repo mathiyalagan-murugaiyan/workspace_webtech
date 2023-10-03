@@ -1,0 +1,36 @@
+/* #parant{
+    border: 1px solid;
+}
+.para{
+    border: 1px solid;
+    height: 200px;
+    width: 200px;
+}
+#para1{
+    position: static;
+    background-color: aqua;
+    top: 250px;
+} */
+
+
+#grandparent{
+    border: 1px solid;
+    padding: 20px;
+    /* position: relative; */
+}
+#parent{
+    border: 1px solid;
+    position: relative;
+}
+.para{
+    border: 1px solid;
+    width: 200px;
+    height: 200px;
+}
+#child1{
+    background-color: red;
+    /* position: relative; */
+    position: absolute;
+    left: 0px;
+
+}
