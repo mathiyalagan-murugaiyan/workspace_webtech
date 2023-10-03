@@ -16,6 +16,8 @@ table{
     width: 100px;
     border: 1px solid;
     border-right: 2px solid;
+    border-left: rgb(117, 114, 114);
+    
 }
 .sn{
     width: 100px;
@@ -27,13 +29,26 @@ thead>tr> th{
     border-bottom:dashed;
     background-color: bisque;
 }
-#lastrow:hover{
+#tr4:hover{
     background-color: yellow;
    
 }
 td{
     text-align: center;
+   
 }
-#lastrow{
-  border-top: ;
+#tr1>th{
+    border-bottom: dashed;
 }
+#tr2>td{
+    border-bottom-color:rgb(127, 255, 146);
+}
+
+#tr3>td{
+   
+    border-bottom-color:blueviolet ;
+}
+#tr4{
+    border-bottom-color:blueviolet ;
+} 
+
