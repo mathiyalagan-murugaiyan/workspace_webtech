@@ -1,0 +1,29 @@
+#gp{
+    border: 1px solid;
+    padding: 20px;
+    position: relative;
+    height: 200vh;
+
+}
+#p{
+    border: 1px solid;
+    height: 60vh;
+    /* position:sticky; */
+    top: 0px;
+}
+.child{
+    border: 1px solid;
+    height: 150px;
+    width: 150px;
+}
+#child1{
+    background-color: red;
+   position: fixed;
+   
+    bottom: 0px;
+}
+#child2{
+    background-color: aqua;
+
+   
+}

@@ -1,0 +1,89 @@
+body{
+    position: relative;
+}
+#nav_model{
+    border: 1px solid;
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    height: 40px;
+    padding-left: 10px;
+    position: sticky;
+    top: 0px;
+    opacity: 1;
+    
+}
+.nav_content{
+    color: aliceblue;
+    display: inline-block;
+    height: 30px;
+    padding: 3px;
+    width: 150px;
+    border-radius: 6px;
+    padding-left: 10px;
+    line-height: 30px;
+    
+    
+}
+#left_content{
+    position: absolute;
+   padding-left: 20px;
+    
+}
+#right_content{
+    position: absolute;
+    right: 40px;
+    width: 250px;
+    
+   
+    
+}
+.nav_content:hover{
+    background-color: aliceblue;
+    color: black;
+   
+    
+}
+#login{
+    background-color: azure;
+    color: black;
+    width: 90px;
+    padding: 4px;
+}
+#register{
+    background-color: azure;
+    color: black;
+    width: 90px;
+    padding: 4px;
+}
+#imgbody{
+    background-image: url(../image/barber-shop.jpg),url(../image/dog1.jpg);
+     height: 250vh;
+     background-repeat: no-repeat;
+     opacity: 0.8;
+     position: relative;
+     background-position: top, bottom;
+     background-size: 1340px 810px,1350px 720px;
+     margin-bottom: 0px;
+   
+}
+h1,h4{
+   color: rgb(177, 243, 103); 
+   text-align: center;
+}
+p{
+    color: azure;
+    text-align: center;
+}
+#body_content{
+    width: 500px;
+    position: absolute;
+    right: 5px;
+    bottom: 1200px;
+}
+#right_content > .nav_content:hover{
+    background-color: yellowgreen;
+    
+}
+
