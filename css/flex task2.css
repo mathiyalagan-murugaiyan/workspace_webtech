@@ -1,0 +1,238 @@
+#main-div1{
+    border: 1px solid black;
+    height: 100vh;
+    background-image: url(https://jolly-kalam-23776e.netlify.app/mytunes/img/showcase.jpeg);
+    width: 101.2%;
+    margin: 0px;
+    padding: 0px;
+    background-size: cover;
+    
+}
+body{
+    margin: 0px;
+    font-family:sans-serif ;
+    padding: 0px;
+}
+h1{
+    font-size: 60px;
+    margin-top: 100px;
+
+}
+h2{
+    font-size: 30px;
+    line-height: 50px;
+}
+h3{
+    font-size: 18px;
+    line-height: 30px;
+}
+.para1{
+    color: white;
+    font-family:sans-serif ;
+    margin-top: 30vh;
+    text-align: center;
+}
+
+
+nav{
+    border: 1px solid #333;
+    height: 40px;
+    line-height: 45px;
+    word-spacing: 40px;
+    background-color: #252529;
+    width: 100vw;
+    text-indent: 20px;
+    position: sticky;
+    display: inline-block;
+    margin: 0px;
+    top: 0px;
+    position: fixed;
+}
+nav>a{
+    text-decoration: none;
+    color: #eeeeee;
+    padding: 12px;
+    /* background-color: #252529; */
+
+}
+ nav a:hover{
+    background-color: #333;
+   
+}
+
+
+
+#main-div2{
+    border: 1px solid black;
+    height: 200vh;
+    background-color: #252529;
+    width: 101.2%;
+    margin: 0px;
+    padding: 0px;
+}
+.para2{
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 40px;
+  
+}
+
+p{
+    text-align: center;
+    color: white;
+    font-family:sans-serif ;
+    font-size: 40px;
+}
+p2{
+    text-align: center;
+    color: white;
+    margin-left: 450px;
+    font-size: 35px;
+   
+}
+#para_content{
+    text-align: center;
+    color: white;
+    font-size: 21px;
+    white-space: 50px;
+    padding: 50px; 
+    
+}
+section a{
+    margin-left: 560px;
+    border: 1px solid black;
+    padding: 20px 10px 20px 10px;
+    background-color: rgba(252, 5, 5, 0.651);
+    font-size: 16px;
+    text-decoration: none;
+    color: #f3ebeb;
+
+}
+section a:hover{
+    background-color: red;
+}
+
+#para{
+    font-size: 15px;
+}
+
+#main-div3{
+    border: 1px solid black;
+    height: 205vh;
+    background:#f4f4f4;
+    width: 101.2%;
+
+}
+
+
+#r1{
+    left: 200px;
+  font-size: 34px;
+    color: #252529;
+    margin-top: 55px;
+    margin-bottom: -23px;
+  
+}
+#r2{
+    color: #333;
+    font-size: 22px;
+    padding: 30px;
+    line-height: 35px;
+    display: inline-block;
+    margin-bottom: 15px;
+
+}
+article a{
+    border: 1px solid black;
+    display: inline-block;
+    background-color: #103063;
+    padding: 20px;
+    color: #fff;
+    margin-left: 640px;
+    text-decoration: none;
+}
+article  a:hover{
+    background-color: #143f85;
+}
+#pic{
+    margin-left: 100px;
+}
+
+#main-div4{
+    text-align: center;
+     width: 101.2%;
+    background-image: url(../image/section-bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10rem 0; 
+    margin: 0px;
+}
+#h1_content{
+    font-size: 30px;
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+}
+
+#text{
+    font-size: 22px;
+    padding: 40px;
+    display: inline-block;
+    padding-top: 0px;
+}
+
+#main_content4{
+    padding: 2rem 0;
+    padding-top: 2rem;
+    padding-right: 60px;
+    padding-bottom: 2rem;
+    padding-left: 60px;
+     display: inline-flex;
+    background-color: #f4f4f4;  
+    line-height: 30px;
+    color: black;
+    margin: 0px;
+}
+#reedem{
+    text-decoration: none;
+}
+#gift{
+    color: #252529; 
+     width: 101.2%;  
+}
+#gift_paracontent{
+    color: black;
+    text-align: left;
+}
+#footer{
+     width: 101.2%;
+   
+    background-color: #252529;
+}
+
+#list_div{
+    display: flex;
+   text-align: start;
+   justify-content: space-evenly;
+   padding: 25px;
+}
+
+#footer #list_div ul a{
+    list-style: none;
+    justify-content: space-evenly;
+    font-size: small;
+    color: #797373;
+    text-decoration: none;
+    
+}
+
+#footer #list_div ul{
+    list-style: none;
+    color: #eeeeee;
+    font-size: large;
+}
+
+
+#card #last{
+    border: 1px solid #333;
+    background-color: #333;
+}
