@@ -1,0 +1,21 @@
+p{
+    border: 1px solid black;
+    height: 250px;
+    width: 250px;
+    /* transition: 10s; */
+    /* transition: height 5s,width 10s; */
+    transition-duration: 10s;
+    /* transition-delay: 5s; */
+    /* transition-timing-function: ease; */
+    /* transition-timing-function: ease-in; */
+    /* transition-timing-function: ease-out; */
+    /* transition-timing-function: ease-in-out; */
+    transition-timing-function:linear;
+}
+
+p:hover{
+    /* height: 350px;
+    width: 350px; */
+    transform: rotate(3600deg);
+    background-color: aqua;
+}
