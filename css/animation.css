@@ -1,0 +1,48 @@
+p{
+    border: 1px solid black;
+    width: 250px;
+    height: 200px;
+    animation-name: para;
+    animation-duration: 10s;
+    /* animation-iteration-count:infinite; */
+    position: relative;
+    /* animation-delay: 5s; */
+    /* animation-direction: alternate; */
+    /* animation-direction: alternate-reverse; */
+    /* animation-fill-mode: forwards; */
+    animation-fill-mode: backwards;
+}
+@keyframes para{
+    /* from{
+        background-color: aqua;
+    }
+    to{
+        background-color: chocolate;
+    } */
+    0%{
+        background-color: aqua;
+        top: 0px;
+        left: 0px;
+    }
+    25%{
+        background-color: chartreuse;
+        left: 250px;
+        top: 0px;
+    }
+    50%{
+        background-color: red;
+        top: 250px;
+        left: 250px;
+
+    }
+    75%{
+        background-color: blue;
+        left: 0px;
+        top: 250px;
+    }
+    100%{
+        background-color: aqua;
+        top: 0px;
+        left: 0px;
+    }
+}
