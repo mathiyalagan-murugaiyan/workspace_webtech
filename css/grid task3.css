@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#main{
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    gap: 60px;
+    justify-content: center;
+    background-color: rgb(247,247,247);
+    font-family: sans-serif;
+}
+#heading {
+    grid-column: 1/4;
+    text-align: center;
+    margin-top: 20px;
+}
+h1{
+    font-size: x-large;
+    padding-top: 40px;
+    font-weight: bolder;
+    padding-left: 25px;
+}
+p{
+    padding-top: 40px;
+    padding-left: 25px;
+}
+button{
+    width: 180px;
+    height: 55px;
+    position: relative;
+    left: 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: larger;font-weight: bolder;
+    background-color:rgb(37,33,34);
+    color: white;
+    
+}
+
+h1::before{
+    content: "";
+    border: 1px solid rgb(204,204,204);
+    width: 500px;
+    position: absolute;
+    right: 125vh;
+    top: 75px;
+
+}
+h1::after{
+    content: "";
+    border: 1px solid rgb(204,204,204);
+    width: 500px;
+    position: absolute;
+    right: 125px;
+    top: 75px;
+
+}
+
+.cards{
+    /* border: 1px solid; */
+    height: 630px;
+    width: 350px;
+    background-color:rgb(255,255,255);
+}
+.para-content{
+    font-weight:100px ;
+    line-height: 30px;
+
+}
+
+
+#img1{
+    background-image: url(../image/grid-img1.jpg);
+    background-size: cover;
+     height: 250px;
+     width: 350px;
+}
+#img2{
+    background-image: url(../image/grid-img2.jpg);
+    background-size: cover;
+     height: 250px;
+     width: 350px;
+}
+#img3{
+    background-image: url(../image/grid-img3.jpg);
+    background-size: cover;
+     height: 250px;
+     width: 350px;
+}
+#img4{
+    background-image: url(../image/grid-img4.jpg);
+    background-size: cover;
+     height: 250px;
+     width: 350px;
+}
+#img5{
+    background-image: url(../image/grid-img5.jpg);
+    background-size: cover;
+     height: 250px;
+     width: 350px;
+}
+#img6{
+    background-image: url(../image/grid-img6.jpg);
+    background-size: cover;
+      height: 250px;
+      width: 350px;   
+}
