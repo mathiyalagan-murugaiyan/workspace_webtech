@@ -4,32 +4,30 @@
     align-items: center;
     height: 100vh;
     font-family: sans-serif;
-    background-image: url(../image/black\ bord.jpg);
-    background-size: cover;
-   
-
+    background-color:rgb(207, 241, 107);
+}
 
 #login_modul {
     border: 1px solid white;
-    height: 500px;
+    height: 400px;
     width: 650px;
-    box-shadow: 10px 10px 40px 50px pink;
+    box-shadow: 10px 10px 30px 30px rgb(220, 203, 206) ;
     border-radius: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    opacity: 1.0;
     background-color:white;
-}
-
+    
 }
 
 h1 {
+    padding-top: 50px;
     text-align: center;
 }
 
 #form_modul {
     line-height: 45px;
+    gap: 10px;
    
     width: 80%;
    
@@ -41,6 +39,7 @@ h1 {
     justify-content: space-between;
     align-items: center;
     margin: 10px 0;
+   
 }
 
 .user_lable {
@@ -49,6 +48,7 @@ h1 {
     /* padding: 10px; */
     text-align: right;
     column-gap: 10px;
+   
 }
 
 .user_input {
@@ -58,10 +58,13 @@ h1 {
    
 }
 #btn{
-    padding-left: 100px;
+    padding-left: 120px;
+    width: 15px;
 }
 button{
-    width: 120px;
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
 }
 #warning-msg{
     padding-left: 100px;
@@ -73,17 +76,6 @@ p{
 }
 input{
     border-radius: 5px;
-}
-/* i{
-    padding-right: 50px;
-} */
-#user{
-    height: 16px;
-    width: 165px;
-    border: 1px solid;
-    border-radius: 5px;
-    display: flex;
-    justify-content: flex-end;
 }
 .user_input > span{
     position: relative;
