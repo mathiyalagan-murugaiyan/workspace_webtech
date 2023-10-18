@@ -191,18 +191,24 @@ article  a:hover{
     line-height: 30px;
     color: black;
     margin: 0px;
+    
+ 
 }
 #reedem{
     text-decoration: none;
 }
-#gift{
-    color: #252529; 
-     width: 101.2%;  
-}
-#gift_paracontent{
+#one_paracontent{
     color: black;
     text-align: left;
+
 }
+
+#one{
+    color: #252529; 
+     width: 101.2%;
+    
+}
+
 #footer{
      width: 101.2%;
    
