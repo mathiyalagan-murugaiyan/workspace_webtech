@@ -1,3 +1,7 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
 #main_div {
     display: flex;
     justify-content: center;
@@ -11,15 +15,16 @@
 
 #login_modul {
     border: 1px solid white;
-    height: 500px;
-    width: 650px;
-    box-shadow: 10px 10px 40px 50px pink;
+    height: 450px;
+    width: 600px;
+    box-shadow: 10px 10px 30px 30px pink;
     border-radius: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
     opacity: 1.0;
     background-color:white;
+    padding-top: 90px;
 }
 
 }
@@ -61,7 +66,9 @@ h1 {
     padding-left: 100px;
 }
 button{
-    width: 120px;
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
 }
 #warning-msg{
     padding-left: 100px;
