@@ -82,7 +82,7 @@
     top: 80px;
 }
 #img1{
-    background-image: url(../image/camara.webp);
+    background-image: url(../../image/camara.webp);
     height: 290px;
     border-top-right-radius: 14px;
     border-top-left-radius: 14px;
@@ -91,7 +91,7 @@
     position: relative;
 }
 #img2{
-    background-image: url(../image/watch.jpg);
+    background-image: url(../../image/watch.jpg);
     height: 290px;
     border-top-right-radius: 14px;
     border-top-left-radius: 14px;
