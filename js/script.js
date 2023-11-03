@@ -246,15 +246,33 @@
 //    }
 
 
-while(true){
-   var res1= confirm("do you continue")
-    if(res1 == true){
-        window.location = "https:www.pixabay.com"
-        break
-    }
-    else if (res1){
+// while(true){
+//    var res1= confirm("do you continue")
+//     if(res1 == true){
+//         window.location = "https:www.pixabay.com"
+//         break
+//     }
+//     else if (res1){
 
-         confirm("do you continue")
+//          confirm("do you continue")
          
+//     }
+// }
+// ebility of js engine  search for a variable inside block and go to the globale 
+
+var  a = 10
+
+{
+    let a =20
+    console.log(a) 
+        
     }
+console.log(a)
+
+
+var b = 20
+{
+
+    let b=23
+    
 }
