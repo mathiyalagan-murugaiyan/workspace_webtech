@@ -1,3 +1,4 @@
+
 // console.log("hi")
 // console.log(window)
 
@@ -260,19 +261,88 @@
 // }
 // ebility of js engine  search for a variable inside block and go to the globale 
 
-var  a = 10
+// var  a = 10
+// console.log(window)
 
-{
-    let a =20
-    console.log(a) 
+// {
+//     let a =20
+//     console.log(a) 
         
-    }
-console.log(a)
+//     }
+// console.log(a)
 
 
-var b = 20
-{
+// var b = 20
+// {
 
-    let b=23
+//     let b=23
     
-}
+// }
+
+//var suporting hoisting
+
+// console.log(a)
+
+// var a
+//  a= 10
+
+//  console.log(a)
+ 
+
+// let not suport hoisting  //they are belong to TDZ
+//(temporal dead zone)- time gap between declaration and intialization
+
+//variable which are belong to tdz we can not mak hoisting
+
+//  console.log(a)
+ 
+//  let a
+//   a= 10
+ 
+//   console.log(a)
+
+//program1
+
+// var a=10
+// {
+//     a=25
+//     {
+//         let a=45
+//         console.log(a)
+//     }
+    
+//     console.log(a)
+// }
+// console.log(a)
+
+//program2
+
+// var a=45
+// {
+//     let a=80
+//     {
+//         let a=90
+//         console.log(a)
+//         console.log(window.a)
+//     }
+//     console.log(a)
+// }
+
+//program3
+
+// var a1=50
+// {
+
+//     let a=45
+//     var a1=95
+//     {
+//         let a=55
+//         var a1=105
+//         console.log(a)
+//         console.log(window.a1)
+//     }
+//     a="parent"
+//     console.log(a)
+//     console.log(a1)
+// }
+// console.log(a1)
