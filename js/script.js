@@ -346,3 +346,46 @@
 //     console.log(a1)
 // }
 // console.log(a1)
+
+
+// let a = "smith"
+
+// console.log(a instanceof String)
+
+// let a1 = new String( "smith")
+
+// console.log(a1 instanceof String)
+
+/* ***************************************************************************************************** */
+
+//call bu value
+
+let a = "java"
+
+let person = a
+
+ a ="python"
+
+console.log(a)
+
+console.log(person)
+
+
+// call by reference
+
+
+let home = {
+
+    value:20
+
+}
+
+let home1 = home
+
+console.log(home)
+
+home1.value=50
+
+console.log(home)
+
+console.log(home1)
