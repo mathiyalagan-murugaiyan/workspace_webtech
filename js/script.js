@@ -360,32 +360,127 @@
 
 //call bu value
 
-let a = "java"
+// let a = "java"
 
-let person = a
+// let person = a
 
- a ="python"
+//  a ="python"
 
-console.log(a)
+// console.log(a)
 
-console.log(person)
+// console.log(person)
 
 
 // call by reference
 
 
-let home = {
+// let home = {
 
-    value:20
+//     value:20
 
-}
+// }
 
-let home1 = home
+// let home1 = home
 
-console.log(home)
+// console.log(home)
 
-home1.value=50
+// home1.value=50
 
-console.log(home)
+// console.log(home)
 
-console.log(home1)
+// console.log(home1)
+
+// let a = prompt();
+
+// let b = prompt();
+
+// let c=(a+b)
+// console.log(c)
+//  c=(a-b)
+// console.log(c);
+// c=(a/b)
+// console.log(c);
+// c=(a%b)
+// console.log(c);
+// c=(a++)
+// console.log(c);
+// c=(++a)
+// console.log(c);
+// c=(b--)
+// console.log(c);
+// c=(--b)
+// console.log(c);
+
+// compond assingment
+
+// let a= 10
+
+// a+=10
+// console.log(a);
+// a-=10
+// console.log(a);
+// a/=10
+// console.log(a);
+// a%=10
+// console.log(a);
+// a*=10
+
+// console.log(a);
+
+//relational operator
+
+// console.log(10<15);
+// console.log(10>15);
+// console.log(10<=10);
+// console.log(10<10);
+// console.log(10>=10);
+// console.log(10>10);
+
+
+// var str1 ="smith"
+
+// // var str2 ="smith"
+
+// var str2 = new String("smith")
+
+// console.log(str1 == str2);
+
+// var str3 = new String("jack")
+
+// var str4 = new String("jack")
+
+// console.log(str3 == str4);
+
+// console.log(true == 1);
+
+// console.log(0 == null);
+
+// console.log(true == "");
+
+// console.log(undefined == false);
+
+// console.log(null == null);
+
+// console.log();
+
+
+
+var str1 = new String("smith")
+var str2 = new String("smith")
+
+console.log(str1===str2);
+
+var str = "smith"
+
+var str1 = new String("smith")
+
+console.log(str === str1.valueOf());
+
+
+
+
+
+
+
+
+
