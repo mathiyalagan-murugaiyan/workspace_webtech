@@ -465,19 +465,58 @@
 
 
 
-var str1 = new String("smith")
-var str2 = new String("smith")
+// var str1 = new String("smith")
+// var str2 = new String("smith")
 
-console.log(str1===str2);
+// console.log(str1===str2);
 
-var str = "smith"
+// var str = "smith"
 
-var str1 = new String("smith")
+// var str1 = new String("smith")
 
-console.log(str === str1.valueOf());
+// console.log(str === str1.valueOf());
+
+// var a=10
+// {
+// let a=20
+
+// console.log(a);
+// }
+
+// console.log(this.a);
 
 
+// let b=30
+// {
 
+//     let c = 40
+
+//     console.log(b);
+// }
+// console.log(this.b);
+
+
+//function
+
+// console.log("start");
+// function sum(a,b){
+
+// console.log(a+b);
+
+// }
+
+// sum(10,20);
+
+// sum(20,20);
+// console.log("end");
+
+console.log("start");
+
+function sum(a,b){
+
+    
+
+}
 
 
 
